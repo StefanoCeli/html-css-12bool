@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  background-color: #FEC0CB;
+  text-align: center;
+  line-height: 200px;
+}
+
+[class*=col-] {
+  border: 1px solid black;
+}
+
+.container .col-6 [class*="col-"]{
+  background-color: #f08080;
+  border: 1px solid #fff;
+  line-height: 180px;
+}
+
+ .container:nth-of-type(5)>.col-6{
+  padding: 5px;
+  
+}
